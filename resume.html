@@ -11,14 +11,19 @@
         margin: 0;
         padding: 0;
         color: #000000;
-        background-color: #d0c7c7;
+        background-color: #fff;
       }
       main {
         max-width: 800px;
         margin: 2rem auto;
         padding: 0 2rem;
       }
-      h1,
+      h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
       h2 {
         color: #000000;
       }
@@ -54,6 +59,12 @@
         text-decoration: none;
         font-style: italic;
       }
+      .contact-info{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
     </style>
   </head>
   <body>
@@ -62,37 +73,26 @@
      <h1>Shivani Patil</h1>
       <div class="contact-info">
         <a href="mailto:shivanippatil866@gmail.com">shivanippatil866@gmail.com</a>
-        <p>Phone: +91 8669985881</p>
-        <p>Address: Satara Parisar, Chhatrapati Sambhajinagar</p>
+        <p>| +91 8669985881</p>
+        <p>| Chh.Sambhajinagar</p>
+        <a href="https://github.com/shivanipatil101">| GitHub</a>
+        <a href="https://www.linkedin.com/in/shivani-patil-20944824a/">| LinkedIn</a>
       </div>
       <section class="section">
         <h2>Summary</h2>
         <p>
-          A Frontend Developer and Visual Designer with expertise in web design,
-          brand identity, and product design. Passionate about creating
-          intuitive and visually appealing digital experiences.
+          Passionate Frontend Developer with a strong command of HTML, CSS, and modern JavaScript (ES6+). Skilled in crafting responsive and visually appealing user interfaces using Tailwind CSS, Bootstrap, Material-UI, and Styled Components. Experienced in integrating REST APIs, implementing Firebase Authentication, and managing data with Firestore. Proficient with development tools like Git, GitHub, Chrome DevTools, and Prettier, with hands-on experience deploying projects on platforms like Vercel and Firebase Hosting. Dedicated to building seamless, performant, and user-friendly web experiences.
         </p>
       </section>
 
       <section class="section">
         <h2>Education</h2>
-          <div class="education-item">
-          <div class="degree">Secondary School Certificate (SSC)</div>
-          <div class="school">Ujwalatai Pawar School ,Cht. Sambhajinagar</div>
-          <div class="date">Completed: March 2019</div>
-        </div>
-
-       <div class="education-item">
-          <div class="degree">Higher Secondary Education (HSC)</div>
-          <div class="school">AVS Junior College ,Cht. Sambhajinagar</div>
-          <div class="date">Completed: 2019 - 2021</div>
-        </div>
       
          <div class="education-item">
           <div class="degree">Bachelor of Science in Computer Science</div>
-          <div class="school">Deogiri College ,Cht. Sambhajinagar</div>
+          <div class="school">Deogiri College ,Chh.Sambhajinagar</div>
           <div class="date">Graduated: May 2024</div>
-          <div class="percentage">Percentage: 67.70%</div>
+        
         </div>
       
         
@@ -101,11 +101,11 @@
       <section class="section">
         <h2>Skills</h2>
         <ul>
-          <li>HTML5, CSS3, JavaScript (ES6+)</li>
-          <li>React</li>
-          <li>Responsive Web Design</li>
-          <li>Figma</li>
-          <li>Git, GitHub</li>
+          <li>Technical Skills: HTML, CSS, JavaScript (ES6+)</li>
+          <li>API and Backend: REST API’s, Firebase Authentication & Firestore</li>
+          <li>Tools: Git & GitHub, Chrome DevTools, Prettier</li>
+          <li>Deployment: Vercel, Firebase Hosting, GitHub</li>
+          <li>Soft Skills: Communication, Problem-Solving, Attention to Detail, Time Management, Adaptability, Team Collaboration, Creativity, Critical Thinking, Self-Motivation, Growth Mindset</li>
         </ul>
       </section>
 
@@ -113,28 +113,36 @@
         <h2>Projects</h2>
         <div class="project-item">
           <div class="project-title">Personal Portfolio Website</div>
-          <p>
-            Created a responsive and user-friendly portfolio website using
-            HTML, CSS, and JavaScript to showcase personal projects and skills.
+          <ul>
+<li>            Integrated smooth animations for enhanced user interaction.</li>
+    <li>       Implemented theme toggle feature for improved user experience.</li> 
+        <li>    Ensured cross-device compatibility with mobile-first design.</li>
+            <li>Optimized code for clean structure and fast loading performance.</li>
+</ul>
+
           </p>
           <a
             href="https://github.com/shivanipatil101/Shivani"
             class="project-link"
             target="_blank"
-            >View Project on GitHub</a
+            >Go Live</a
           >
         </div>
         <div class="project-item">
-          <div class="project-title">E-commerce Product Page</div>
-          <p>
-            Developed a dynamic product page with React, featuring filtering
-            options and a shopping cart.
-          </p>
+          <div class="project-title">Resume Builder</div>
+          <ul>
+            <li>Implemented Firebase Authentication for secure user login and utilized Firestore to store user data, ensuring data integrity and reducing potential security vulnerabilities by an estimated 40%.</li>
+            <li>Designed a real-time resume preview feature, improving user experience and reducing form submission errors by 30%.</li>
+            <li>Leveraged API integration to fetch and display dynamic resume templates, enhancing customization options for users.</li>
+            <li>Deployed the application using Firebase Hosting, optimizing load times and ensuring 99.9% uptime for seamless accessibility.</li>
+            <li>Tech Stack: HTML, CSS, JavaScript, Firebase Authentication, API</li>
+           </ul> 
+          
           <a
-            href="https://github.com/shivanipatil101/Assignment02.1"
+            href="https://shivanipatil101.github.io/ResumeBuilder/"
             class="project-link"
             target="_blank"
-            >View Project on GitHub</a
+            >Go Live</a
           >
         </div>
       </section>
